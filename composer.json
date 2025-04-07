@@ -11,7 +11,8 @@
       }
     ],
     "require": {
-      "flarum/core": "^1.0"
+      "flarum/core": "^1.0",
+      "oncdev/nested-replies": "dev-main"
     },
     "extra": {
       "flarum-extension": {
