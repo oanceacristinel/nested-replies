@@ -1,0 +1,35 @@
+{
+    "name": "oncdev/nested-replies",
+    "description": "A Flarum extension to enable nested replies in the style of Reddit.",
+    "type": "flarum-extension",
+    "keywords": ["flarum", "extension", "nested replies", "reddit"],
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Cristinel Oancea",
+        "email": "oanceacristinel@gmail.com"
+      }
+    ],
+    "require": {
+      "flarum/core": "^1.0"
+    },
+    "extra": {
+      "flarum-extension": {
+        "title": "Nested Replies",
+        "icon": {
+          "name": "fas fa-comments"
+        }
+      }
+    },
+    "autoload": {
+      "psr-4": {
+        "Oncdev\\NestedReplies\\": "src/"
+      }
+    },
+    "scripts": {
+      "post-update-cmd": [
+        "php flarum migrate"
+      ]
+    }
+  }
+  

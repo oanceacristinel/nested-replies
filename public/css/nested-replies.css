@@ -1,0 +1,32 @@
+/* Stil pentru indentarea răspunsurilor ierarhice */
+.Post {
+    margin-bottom: 20px;
+}
+
+.Post.reply {
+    margin-left: 20px;
+}
+
+/* Stil pentru butonul de răspuns */
+.ReplyButton {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.ReplyButton:hover {
+    background-color: #0056b3;
+}
+
+/* Alte stiluri pentru a face interfața mai atrăgătoare */
+.Post-body {
+    font-size: 14px;
+    color: #333;
+}
+
+.Post-reactions {
+    display: flex;
+    gap: 10px;
+}
