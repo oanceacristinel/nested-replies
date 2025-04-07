@@ -31,5 +31,9 @@
         "php flarum migrate"
       ]
     }
-  }
+    {
+    "minimum-stability": "dev",
+    "prefer-stable": true
+    }
+ }
   
